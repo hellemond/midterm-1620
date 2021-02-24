@@ -17,7 +17,7 @@ h1 {
   display: inline;
 }
 
-o {
+ol {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -27,6 +27,9 @@ img {
   padding: 2rem;
 }
 
-li:nth-child(2) {
+li {
   padding: 2rem;
+  font-size: 30px;
+  display: block;
+  float: right;
 }
