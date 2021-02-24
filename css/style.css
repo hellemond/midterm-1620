@@ -17,6 +17,9 @@ h1 {
   display: inline;
 }
 
+ol {
+  font-family: 'Montserrat', sans-serif;
+}
 
 img {
   max-width: 500px;
@@ -25,7 +28,7 @@ img {
 }
 
 li {
-  padding: 2rem;
+  padding: 1rem;
   font-size: 19px;
   display: block;
 }
@@ -34,7 +37,7 @@ h2{
   font-size: 20px;
 }
 
-nav.mainbar{
+nav{
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -42,6 +45,7 @@ nav.mainbar{
   background-color: #fed3be;
   border: ridge;
   border-color: #3a3846;
-  text-align: right;
-  float: right;
+  text-align: left;
+  position: fixed;
+  top: 0px; left: 800px; right: 0px;
 }
